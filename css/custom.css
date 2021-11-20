@@ -14,9 +14,13 @@ body {
   color: #0b6bd3;
 }
 
+.first-section {
+  margin-top: 60px;
+}
+
 section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .lnr {
