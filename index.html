@@ -24,10 +24,10 @@
   <body class="bg-light">
 	<!-- navbar -->
 	<nav class="navbar navbar-dark navbar-expand-lg fixed-top shadow-sm" style="background-color: #00478f">
-		<div class="navbar-brand">
-			<img src="img/gwindows_logo.svg" alt="Git Logo" width="60" height="60" class="d-inline-block align-top">
-			<span class="h2">Git for Windows</span>
-		</div>
+		<a class="navbar-brand" href="/">
+			<img src="img/gwindows_logo.svg" alt="Git Logo" width="30px" height="30px" class="d-inline-block align-top">
+			Git for Windows
+		</a>
 		<button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
 			class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
@@ -48,9 +48,12 @@
 			</ul>
 		</div>
 	</nav>
-	<section class="first-section">
-		<div class="container">
-			<div class="row  justify-content-center justify-content-md-center justify-content-sm-center justify-content-lg-center justify-content-xl-center">
+	<div class="container p-5" role="main">
+		<img src="img/gwindows_logo.svg" class="float-right img-git-logo" alt="Git for Windows Logo" />
+		<p class="mb-4">Git for Windows focuses on offering a lightweight, native set of tools that bring
+			the full feature set of the <a href="https://git-scm.com" target="_blank" class="lcolor">Git SCM</a> to Windows while
+			providing appropriate user interfaces for experienced Git users and novices alike.</p>
+		<div class="justify-content-center justify-content-md-center justify-content-sm-center justify-content-lg-center justify-content-xl-center">
 				<div class="col-md-auto col-sm-auto col-auto col-lg-auto col-xl-auto">
 					<p class="text-center">
 						<a name="download" /><a class="btn btn-primary shadow mr-2"
@@ -64,14 +67,9 @@
 					</p>
 				</div>
 			</div>
-		</div>
-	</section>
-	<section style="background-color: #8BBBFF">
+	</div>
+	<section style="background-color: #DBEBFF">
 		<div class="container">
-			<h2>Tools &amp; Features</h2>
-			<p class="mb-3">Git for Windows focuses on offering a lightweight, native set of tools that bring
-				the full feature set of the <a href="https://git-scm.com" target="_blank" class="lcolor">Git SCM</a> to Windows while
-				providing appropriate user interfaces for experienced Git users and novices alike.</p>
 			<div class="row">
 				<div class="col-sm-6 col-lg-4 mb-3">
 					<img src="img/gw1web_thumb.png" alt="Git Bash" class="img-other-logos">
@@ -112,7 +110,7 @@
 				   target="_blank" class="ncolor">issue tracker on our GitHub repository</a>.
 			</p>
 			<br>
-			<img src="img/details_contribute.svg" class="rounded float-left img-git-sdk-logo" alt="Git for Windows Logo">
+			<img src="img/details_contribute.svg" class="rounded float-left img-git-sdk-logo" alt="Git for Windows SDK Logo">
 			<h3><span class="gittext">Git for Windows SDK</span> : Contributing Code</h3>
 			<p>The <i>Git for Windows SDK</i> is a build environment that includes all the tools necessary for
 				developers who want to contribute by writing code for Git for Windows.</p>
